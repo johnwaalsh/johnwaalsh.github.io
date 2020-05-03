@@ -6,7 +6,7 @@
     </head>
     <body>
         <header>
-            <h1 id="logo"><a href="#home">John Walsh</a></h1>
+            <h1 id="logo"><a href="">John Walsh</a></h1>
             <nav id="nav">
                 <ul>
                     <li><a href="#home">Home</a></li>
@@ -21,15 +21,25 @@
                 <div class="section-content">
                     <img src="img/profile_picture.jpg" class="profile-img">
                     <h2>Hi. I'm John Walsh.</h2>
-                    <h4>I am currently a freshman at Northeastern University, studying Computer Science
+                    <p>I am currently a freshman at Northeastern University, studying Computer Science
                         with a concentration in Artificial Intelligence. I am interested in machine
                         learning, specifically Computer Vision and Natural Language Processing, and
-                        its applications with real world data.</h4>
+                        its applications with real world data.</p>
+                    <div id="links">
+                        <button class="button" id="github-icon"><img src="img/GitHub-Mark-Light-64px.png" 
+                            height=30px width=30px></button>
+                        <button class="button" id="linkedin-icon"><img src="img/LI-In-Bug.png" 
+                            height=30px width=30px></button>
+                    </div>
+                    <div>
+                        <button class="button" id="resume-button">Check out my resume!</button>
+                    </div>
+                        
                 </div>
             </section>
             <section id="experience">
                 <div class="section-content">
-                    <h2>Experience</h2>
+                    <h2 id="title-exp">Experience</h2>
                     <h3>Student Volunteer, Woods Hole Oceanographic Institution's Autonomous Robotics 
                         and Perception Lab</h3>
                     <p>Collaborated with a team of grad students, oceanographers, and software engineers
@@ -40,7 +50,7 @@
             </section>
             <section id="projects">
                 <div class="section-content">
-                    <h2>Projects</h2>
+                    <h2 class="title-proj">Projects</h2>
                     <h3>Senti</h3>
                     <p>Senti is a sentiment analysis dashboard for Youtube comment sections that uses a
                     Long Short Term Memory Network, a type of recurrent neural network, to identify
