@@ -16,6 +16,10 @@ header {
     background-color: #035aa6;
 }
 
+#logo {
+    vertical-align: middle;
+}
+
 #logo a:hover {
     color: #82CAFA;
     transition: 0.8s;
@@ -31,14 +35,16 @@ header ul {
     color: white;
 }
 
-header li {
+header ul li {
     margin-left: 20px;
     color: white;
+    vertical-align: top;
 }
 
-#nav a{
+#nav a, #logo {
     color: #f2f2f2;
     text-decoration:none;
+    vertical-align: top;
 }
 
 #nav a:hover {
