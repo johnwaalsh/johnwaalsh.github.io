@@ -164,12 +164,16 @@ header a {
 
 #title-exp {
     float: left;
-    left: 50px;
+    position: relative;
+    left: 30px;
+    bottom: 160px;
 }
 
 #title-proj {
     float: left;
-    left: 50px;
+    position: relative;
+    left: 30px;
+    bottom: 160px;
 }
 
 @keyframes fadeInAnimation { 
