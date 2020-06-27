@@ -99,6 +99,11 @@ section {
     float: left;
 }
 
+#whoi-img {
+    width: 400px;
+    float: left;
+}
+
 footer {
     text-align: center;
     padding: 50px;
