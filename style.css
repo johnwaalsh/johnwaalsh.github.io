@@ -100,8 +100,21 @@ section {
 }
 
 #whoi-img {
+    position: absolute;
+    width: 500px;
+    left: 400px;
+    top: -60px;
+}
+
+#senti-img {
     width: 400px;
-    float: left;
+    float: center;
+}
+
+#whoi-exp {
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
 footer {
@@ -118,18 +131,30 @@ section h2 {
     font-size: 2.5em;
 }
 
-section h3 {
+#experience h3 {
+    top: -60px;
+    position: absolute;
     font-size: 1.5em;
+    width: 500px;
+    left: 400px;
 }
 
 section h4 {
     font-weight: 0;
 }
 
+
 .section-content {
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1; 
     animation-fill-mode: backwards;
+}
+
+#experience p {
+    position: absolute;
+    top: 90px;
+    width: 500px;
+    left: 400px;
 }
 
 header a {
