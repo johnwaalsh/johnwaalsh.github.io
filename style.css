@@ -107,14 +107,81 @@ section {
 }
 
 #senti-img {
+    position: absolute;
     width: 400px;
-    float: center;
+    left: 450px;
+    top: 200px;
 }
 
 #whoi-exp {
     position: relative;
     text-align: center;
     color: white;
+}
+
+#projects {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#whoi-square h3 {
+    position: relative;
+    text-align: center;
+    color: white;
+    animation: in 1s;
+    transform: translate(0px, 0px);
+}
+
+#whoi-square p {
+    position: relative;
+    text-align: center;
+    color: white;
+    animation: fadeOutAnimation 1s;
+    transform: translate(0px, 0px);
+}
+
+#whoi-square:hover h3 {
+    transition: 0.8s;
+    animation: out 1s;
+    transform: translate(0px, -80px);
+    visibility: visible;
+}
+
+#whoi-square:hover p {
+    transition: 1s;
+    animation: fadeInAnimation ease 0.8s;
+    opacity: 100;
+}
+
+#senti-square h3 {
+    position: relative;
+    text-align: center;
+    color: white;
+    animation: in 1s;
+    transform: translate(0px, 0px);
+}
+
+#senti-square p {
+    position: relative;
+    text-align: center;
+    color: white;
+    animation: fadeOutAnimation 1s;
+    transform: translate(0px, 0px);
+}
+
+#senti-square:hover h3 {
+    transition: 0.8s;
+    animation: out 1s;
+    transform: translate(0px, -80px);
+    visibility: visible;
+}
+
+#senti-square:hover p {
+    transition: 1s;
+    animation: fadeInAnimation ease 0.8s;
+    opacity: 100;
+
 }
 
 footer {
@@ -132,17 +199,24 @@ section h2 {
 }
 
 #experience h3 {
-    top: -60px;
+    top: 30px;
     position: absolute;
     font-size: 1.5em;
     width: 500px;
     left: 400px;
 }
 
+#projects h3 {
+    top: 280px;
+    position: absolute;
+    font-size: 1.5em;
+    width: 400px;
+    left: 450px;
+}
+
 section h4 {
     font-weight: 0;
 }
-
 
 .section-content {
     animation: fadeInAnimation ease 3s;
@@ -152,9 +226,18 @@ section h4 {
 
 #experience p {
     position: absolute;
-    top: 90px;
+    top: 70px;
     width: 500px;
     left: 400px;
+    opacity: 0;
+}
+
+#projects p {
+    position: absolute;
+    top: 260px;
+    width: 400px;
+    left: 450px;
+    opacity: 0;
 }
 
 header a {
@@ -214,3 +297,22 @@ header a {
         opacity: 1; 
      } 
 } 
+
+@keyframes fadeOutAnimation { 
+    0% { 
+        opacity: 1; 
+    } 
+    100% { 
+        opacity: 0; 
+     } 
+} 
+
+@keyframes in {
+    from   { -webkit-transform: translate(0px, -80px); }
+    to { -webkit-transform: translate(0px, 0px);}
+}
+
+@keyframes out {
+    0%   { -webkit-transform: translate(0px, 0px); }
+    100% { -webkit-transform: translate(0px, -80px); }
+}
