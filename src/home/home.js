@@ -6,7 +6,7 @@ function HomeComponent() {
             <div className="d-flex">
                 <img style={{height: 200}} alt="profile" className="rounded-circle" src="images/profile.png"/>
                 <div className="d-flex flex-column m-3 mt-5">
-                    <span className="mb-3"><b>Hello! I'm John. I'm a Software Engineer and a graduate student at Northeastern University studying Computer Science.</b></span>
+                    <span className="mb-3"><b>Hi, I'm John. I'm a Software Engineer and a graduate student at Northeastern University studying Computer Science.</b></span>
                     <span className="mb-3">I recently graduated from Northeastern University with a Bachelor's in Computer Science concentrating in Artificial Intelligence.</span>
                 </div>
             </div>
@@ -15,14 +15,14 @@ function HomeComponent() {
                 <span className="mb-3">When I'm not working, I enjoy weightlifting, hiking, biking, and learning as much as I can about the world. </span>
                 <h4 className="">Currently </h4>
                 <ul>
-                    <li><span className="mb-3"><span style={{fontSize: 18}}>📘</span> Taking classes for my Master's in CS at Northeastern University</span></li>
+                    <li className="mb-3"><span>Taking classes for my Master's in CS at Northeastern University</span></li>
                 </ul>
                 <h4 className="">Previously </h4>
                 <ul>
-                    <li><span className="mb-1"><span style={{fontSize: 18}}>🎓</span> Completed my Bachelor's in Computer Science at Northeastern University</span></li>
-                    <li><span className="mb-1"><span style={{fontSize: 18}}>🛫</span> Built machine learning software for aerospace applications as a Python Software Engineer Co-op at <a href="https://www.morsecorp.com/">MORSE Corp</a></span></li>
-                    <li><span className="mb-1"><span style={{fontSize: 18}}>🗽</span> Developed computer vision models and image processing algorithms as a Data Science Co-op at Liberty Mutual's <a href="https://www.solarialabs.com/">Solaria Labs</a></span></li>
-                    <li><span className="mb-1"><span style={{fontSize: 18}}>🌊</span> Created machine learning pipelines for oceanographic data classification as a Software Intern at Woods Hole Oceanographic Institution's <a href="https://warp.whoi.edu/">WARPLab</a></span></li>
+                    <li className="mb-2"><span>Completed my Bachelor's in Computer Science at Northeastern University!</span></li>
+                    <li className="mb-2"><span>Built machine learning software for aerospace applications as a Python Software Engineer Co-op at <a href="https://www.morsecorp.com/">MORSE Corp</a></span></li>
+                    <li className="mb-2"><span>Developed computer vision models and image processing algorithms as a Data Science Co-op at Liberty Mutual's <a href="https://www.solarialabs.com/">Solaria Labs</a></span></li>
+                    <li className="mb-2"><span>Created machine learning pipelines for oceanographic data classification as a Software Intern at Woods Hole Oceanographic Institution's <a href="https://warp.whoi.edu/">WARPLab</a></span></li>
                 </ul>
             </div>
         </div>
