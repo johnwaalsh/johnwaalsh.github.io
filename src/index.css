@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.footer-icon {
+  color: black;
+}
+
+.footer-icon:hover {
+  color: dodgerblue;
+}
+
+.nav-item {
+  color: black;
+}
+
+.nav-item:hover {
+  color: dodgerblue;
+}
