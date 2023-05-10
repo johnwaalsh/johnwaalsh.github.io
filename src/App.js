@@ -11,7 +11,7 @@ function App() {
     <div className="App">
         <BrowserRouter>
             <div className="d-flex justify-content-center">
-                <div className="col-7">
+                <div className="col-10 col-sm-9 col-med-7">
                     <NavigationBar/>
                     <Routes>
                         <Route path="/" element={<HomeComponent/>}/>
