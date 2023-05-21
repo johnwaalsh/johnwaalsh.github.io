@@ -15,7 +15,7 @@ function HomeComponent() {
                 <span className="mb-3">When I'm not working, I enjoy weightlifting, hiking, biking, and learning as much as I can about the world. </span>
                 <h4 className="">Currently </h4>
                 <ul>
-                    <li className="mb-3"><span>Taking classes for my Master's in CS at Northeastern University </span></li>
+                    <li className="mb-3"><span>Taking classes for my Master's in Computer Science at Northeastern University </span></li>
                 </ul>
                 <h4 className="">Previously </h4>
                 <ul>
