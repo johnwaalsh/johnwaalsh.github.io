@@ -15,7 +15,7 @@ function HomeComponent() {
                 <span className="mb-3">When I'm not working, I enjoy weightlifting, hiking, biking, and learning as much as I can about the world. </span>
                 <h4 className="">Currently </h4>
                 <ul>
-                    <li className="mb-2"><span>Developing software to advance knowledge of the ocean as a Guest Student at Woods Hole Oceanographic Institution's <a href="https://warp.whoi.edu/">WARPLab</a> </span></li>
+                    <li className="mb-2"><span>Developing software to advance knowledge of the ocean as a Guest Student at Woods Hole Oceanographic Institution's <a href="https://warp.whoi.edu/">WARPLab</a>! </span></li>
                     <li className="mb-2"><span>Taking classes part-time for my Master's in Computer Science at Northeastern University </span></li>
                 </ul>
                 <h4 className="">Previously </h4>
