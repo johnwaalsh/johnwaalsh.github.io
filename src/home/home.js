@@ -15,11 +15,12 @@ function HomeComponent() {
                 <span className="mb-3">When I'm not working, I enjoy weightlifting, hiking, biking, and learning as much as I can about the world. </span>
                 <h4 className="">Currently </h4>
                 <ul>
-                    <li className="mb-2"><span>Developing software to advance knowledge of the ocean as a Guest Student at Woods Hole Oceanographic Institution's <a href="https://warp.whoi.edu/">WARPLab</a>! </span></li>
+                    <li className="mb-2"><span>Developing machine learning and embedded systems solutions for ocean science at <a href="https://www.whoi.edu/">Woods Hole Oceanographic Institution</a> </span></li>
                     <li className="mb-2"><span>Taking classes part-time for my Master's in Computer Science at Northeastern University </span></li>
                 </ul>
                 <h4 className="">Previously </h4>
                 <ul>
+                    <li className="mb-2"><span>Developing software to advance knowledge of the ocean as a Guest Student at Woods Hole Oceanographic Institution's <a href="https://warp.whoi.edu/">WARPLab</a></span></li>
                     <li className="mb-2"><span>Completed my Bachelor's in Computer Science at Northeastern University! </span></li>
                     <li className="mb-2"><span>Built machine learning software for aerospace applications as a Python Software Engineer Co-op at <a href="https://www.morsecorp.com/">MORSE Corp</a> </span></li>
                     <li className="mb-2"><span>Developed computer vision models and image processing algorithms as a Data Science Co-op at Liberty Mutual's <a href="https://www.solarialabs.com/">Solaria Labs</a> </span></li>
