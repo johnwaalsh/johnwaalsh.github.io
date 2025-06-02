@@ -5,14 +5,14 @@ function HomeComponent() {
    return (
        <div className="text-start">
            <div className="d-flex flex-column flex-md-row">
-               <img style={{height: 200, width: 200}} alt="profile" className="align-self-center align-self-md-start rounded-circle" src="images/profile.png"/>
+               <img style={{height: 200, width: 200}} alt="profile" className="align-self-center align-self-md-start rounded-circle" src="images/profile.jpeg"/>
                <div className="d-flex flex-column ms-0 ms-md-3 me-0 me-md-3 mb-md-3 mt-5">
-                   <span className="mb-3"><b>Hello! I'm John. I'm a software engineer based in Cape Cod, Massachusetts. </b></span>
-                   <span className="">I enjoy programming and building software around machine learning and computer vision applications.  </span>
+                   <span className="mb-3"><b>Hello! I'm John. I'm a software engineer based in Massachusetts. </b></span>
+                   <span className=""> I’m currently a software engineer at Woods Hole Oceanographic Institution, where I build software and machine learning solutions for ocean science.  </span>
                </div>
            </div>
            <div className="d-flex flex-column mt-3">
-               <span className="mb-3">I’m particularly passionate about bringing artificial intelligence into new domains. </span>
+               <span className="mb-3">I'm passionate about building reliable, scalable software infrastructure around machine learning and computer vision applications. Throughout my career, I've engineered and deployed machine learning systems across diverse industries, including oceanography, robotics, insurance, and defense. </span>
                <span className="mb-3">Outside of software, I enjoy weightlifting, hiking, biking, and learning as much as I can about the world. </span>
                <h4 className="">Currently </h4>
                <ul>

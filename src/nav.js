@@ -12,7 +12,7 @@ function NavigationBar() {
                     </Link>
                     {/*<Link to="/projects" className="mb-1 mb-md-0 mb-lg-0 align-self-start align-self-md-center align-self-lg-center me-5 text-decoration-none text-dark">Projects</Link>*/}
                     {/*<Link to="/blog" className="mb-1 mb-md-0 mb-lg-0 align-self-start align-self-md-center align-self-lg-center me-5 text-decoration-none text-dark">Blog</Link>*/}
-                    <a href="/assets/JohnWalshResume.pdf" className="nav-item mb-1 mb-md-0 mb-lg-0 align-self-start align-self-md-center align-self-lg-center text-decoration-none">Resume</a>
+                    <a href="/assets/jwalsh_resume.pdf" className="nav-item mb-1 mb-md-0 mb-lg-0 align-self-start align-self-md-center align-self-lg-center text-decoration-none">Resume</a>
                 </div>
                 <hr/>
             </div>
